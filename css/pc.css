@@ -54,6 +54,7 @@ h3 {
     width: 100%;
     max-width: 1440px;
     display: flex;
+    justify-content: center;
 }
 
 #main-header #gnb .nav-menu {
@@ -65,20 +66,28 @@ h3 {
 }
 
 #main-header #gnb .nav-menu .nav {
+    display: flex;
+    justify-content: flex-start;
     margin-right: 60px;
     text-align: center;
-    width: 44.17px;
+    min-width: 59px;
     box-sizing: border-box;
 }
 
 #main-header #gnb .nav-span {
-    display: inline-flex;
+    display: flex;
+    justify-content: right;
     padding-top: 78px;
     padding-bottom: 26px;
 }
 
 #main-header #gnb .nav-span .nav-info {
     margin-left: 60px;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 59px;
+    box-sizing: border-box;
+
 }
 
 #main-header #gnb .nav:hover {
