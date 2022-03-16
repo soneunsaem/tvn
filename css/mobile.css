@@ -249,10 +249,6 @@ p{
     width: 95%;
 }
 
-.new-program-info {
-    display: inline-flex;
-}
-
 .program-photo {
     display: flex;
     align-items: center;
