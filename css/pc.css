@@ -149,6 +149,7 @@ h3 {
 
 #time {
     display: flex;
+    justify-content: space-between;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -196,7 +197,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    width: 25vw;
     height: 400px;
     background: var(--main-color);
     margin-bottom: 25px;
@@ -219,13 +220,15 @@ h3 {
 
 #contants .video-group {
     display: flex;
-    width: 25%;
+    width: 75vw;
     height: 400px;
     flex: 3;
+    margin-left: 5px;
 }
 
 #contants .video-group .video-info {
     height: 400px;
+    margin-left: 5px;
 }
 
 #contants .video-group .video-info:hover {
@@ -233,10 +236,9 @@ h3 {
     opacity: 0.8;
 }
 
-#contants .video-group .video-info .video-photo img {
+/* #contants .video-group .video-info .video-photo img {
     height: 50%;
-    margin-left: 0;
-}
+} */
 
 #contants .video-group .video-info .info {
     height: 48.8%;
@@ -258,32 +260,38 @@ h3 {
 #contants .new-program {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    /* max-width: 1440px; */
+    max-width: 1440px;
     height: 400px;
     flex-flow: row-reverse;
 }
 
 #contants .new-program .contants-title {
-    width: 25%;
+    width: 100%;
     height: 100%;
+    margin-right: 0;
 }
 
 #contants .new-program .new-program-info {
     height: 100%;
-    width: 18%;
+    width: 20%;
     margin-left: 5px;
+    margin-right: 5px;
+}
+
+#contants .new-program .new-program-info:last-child {
+    margin-left: 0;
 }
 
 #contants .new-program .program-photo{
-    width: 18%;
+    width: 20%;
     height: 100%;
     margin-left: 0;
 }
 
 #contants .new-program .program-photo img {
-    height: 400px;
+    height: 100%;
 }
 .program-photo .program-info {
     position: absolute;
@@ -303,12 +311,12 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 100%;  
     text-align: center; 
 }
 
-.new-progran-info > a:hover > .program-photo >  
+.new-program-info > a:hover > .program-photo >  
 .program-info {
   opacity: 0.8;
   
@@ -317,7 +325,7 @@ h3 {
 #contants .fa-program {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     /* max-width: 1440px; */
     height: 400px;
@@ -325,18 +333,26 @@ h3 {
 }
 
 #contants .fa-program .contants-title {
-    width: 25%;
+    width: 100%;
     height: 100%;
+    margin-left: 0;
 }
 
 #contants .fa-program .fa-program-info {
     height: 100%;
-    width: 17%;
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
    
 }
 
+#contants .fa-program .fa-program-info:last-child {
+    margin-right: 0;
+    /* margin-left: 0; */
+}
+
 #contants .fa-program .program-photo{
-    width: 17%;
+    width: 20%;
     height: 100%;
     margin-left: 0;
 }
@@ -368,7 +384,7 @@ h3 {
     font-weight: 500;
 }
 
-.fa-progran-info > a:hover > .program-photo > 
+.fa-program-info > a:hover > .program-photo > 
 .program-info {
   opacity: 0.8;
   
@@ -399,9 +415,11 @@ h3 {
 
 #contants .new-video-info:last-child {
     margin-left: 5px;
+    margin-right: 5px;
 }
 
 #contants .new-video-info:first-child {
+    /* margin-left: 5px; */
     margin-right: 5px;
 }
 

@@ -43,6 +43,7 @@ p{
     position: absolute;
     background: rgba(255, 255, 255, 0.95);
     width: 100%;
+    height: 100vh;
     text-align: left;
     padding-left: 20px;
     padding-top: 20px;
@@ -50,8 +51,12 @@ p{
     display: none;
 }
 
+#main-header #gnb .nav:hover {
+    border-bottom: 3px solid var(--main-color);
+}
+
 #main-header #gnb li {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 
